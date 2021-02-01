@@ -12,7 +12,7 @@ services:
     volumes:
       - /app/node_modules
       - .:/app
-  test:
+  tests:
     stdin_open: true
     build:
       context: .
